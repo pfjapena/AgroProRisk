@@ -12,8 +12,9 @@
     iframe {
       border: 0;
       width: 100%;
-      height: 110vh; 
-      margin-top: -45px; 
+      /* Usamos calc para sumar exactamente la altura de la pantalla + lo que subimos el iframe */
+      height: calc(100vh + 35px); 
+      margin-top: -12px; /* Ajusta este número si sigue cortando (ej. -30px) o si se ve el banner (ej. -38px) */
     }
   </style>
 </head>
